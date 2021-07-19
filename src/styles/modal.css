@@ -1,0 +1,50 @@
+.screener {
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+}
+
+[role='dialog'] {
+	width: 60%;
+	max-width: 50rem;
+	background: white;
+	padding: 3rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -75%);
+}
+
+[role='dialog'] .form__row {
+	width: 100%;
+}
+
+[role='dialog'] #contact__form button {
+	margin: auto;
+}
+
+[aria-label='Close'] {
+	background: var(--brand-dark);
+	border: none;
+	border-radius: 50%;
+	color: white;
+	cursor: pointer;
+	font-size: 1.4rem;
+	font-weight: 400;
+	height: 3rem;
+	min-width: 3rem;
+	position: absolute;
+	right: 1.5rem;
+	top: 1.5rem;
+	text-transform: uppercase;
+	transition: all 300ms ease-in-out;
+	vertical-align: middle;
+}
+
+[aria-label='Close']:hover {
+	background: var(--brand-light);
+	color: var(--black);
+}

@@ -1,0 +1,80 @@
+aside .aside__content,
+.aside .aside__content {
+	position: sticky;
+	top: 3rem;
+}
+
+aside nav ul,
+.aside .nav ul {
+	border: 0.2rem solid var(--brand-dark);
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+aside nav ul li,
+.aside .nav ul li {
+	background: var(--lightest-gray);
+	font-size: 1.6rem;
+}
+
+aside nav ul li:not(:last-child),
+.aside .nav ul li:not(:last-child) {
+	border-bottom: 0.1rem solid var(--brand-dark);
+}
+
+aside nav ul li a,
+.aside .nav ul li a,
+aside nav ul li button,
+.aside .nav ul li button,
+aside nav ul li div,
+.aside .nav ul li div {
+	color: var(--dark-gray);
+	cursor: pointer;
+	display: block;
+	padding: 1rem 1.5rem;
+	text-transform: uppercase;
+	transition: all 300ms ease-in-out;
+}
+
+aside nav ul li a:hover,
+aside nav ul li a:focus,
+.aside .nav ul li a:hover,
+.aside .nav ul li a:focus,
+aside nav ul li button:hover,
+aside nav ul li button:focus,
+.aside .nav ul li button:hover,
+.aside .nav ul li button:focus,
+aside nav ul li div:hover,
+aside .nav ul li div:hover {
+	background: var(--brand-dark);
+	color: white;
+}
+
+.aside__section {
+	margin-bottom: 3rem;
+}
+
+.aside__section img {
+	max-width: 100%;
+}
+
+.aside-heading {
+	background: var(--brand-dark);
+	color: white;
+	font-family: var(--headings-font);
+	font-size: 1.8rem;
+	font-weight: 400;
+	margin: 0 0 1rem 0;
+	padding: 1rem 1.5rem;
+	text-transform: uppercase;
+}
+
+.whatsnew {
+	color: white;
+	display: block;
+	font-size: 1.6rem;
+	text-align: center;
+	width: 100%;
+}

@@ -1,0 +1,58 @@
+footer,
+.footer {
+	align-items: flex-end;
+	background: var(--brand-dark);
+	display: flex;
+	padding: 2.5rem 3rem;
+}
+
+footer ul,
+.footer ul {
+	color: white;
+	list-style-type: none;
+	margin: 0 3rem 0 0;
+	max-width: 30rem;
+	padding: 0;
+}
+
+footer section ul,
+.footer section ul {
+	align-items: center;
+	display: flex;
+}
+
+footer nav ul li:not(:last-child),
+.footer nav ul li:not(:last-child) {
+	margin-bottom: 1rem;
+	position: relative;
+}
+
+footer section ul li,
+.footer section ul li {
+	padding-right: 1rem;
+	position: relative;
+}
+
+footer ul li a,
+.footer ul li a {
+	color: white;
+	font-size: 1.4rem;
+}
+
+footer a svg,
+.footer a svg {
+	width: 2.4rem;
+}
+
+footer a svg path,
+.footer a svg path {
+	fill: white;
+}
+
+footer .copy__container,
+.footer .copy__container {
+	color: white;
+	font-size: 1.2rem;
+	justify-self: flex-end;
+	margin-left: auto;
+}

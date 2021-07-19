@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Quicksand&display=swap');
+
+:root {
+	--bg-color: #1b1d21;
+	--black: #131516;
+	--dark-gray: #666;
+	--gray: #999;
+	--light-gray: #bec6d0;
+	--borders-gray: #cecece;
+	--lighter-gray: #ececec;
+	--lightest-gray: #f4f7fa;
+	--brand-dark: #00615a;
+	--brand-light: #26bfb5;
+	--blue: #0c72bb;
+
+	--primary-font: 'Lato', 'sans-serif';
+	--headings-font: 'Quicksand', 'sans-serif';
+}
+html,
+body {
+	font-family: var(--primary-font);
+	font-size: 62.5%;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+#top__wrapper {
+	margin: 0 auto;
+	max-width: 99rem;
+	padding: 3rem 1.5rem 0;
+}
+
+.row {
+	display: flex;
+}
+
+aside,
+.aside {
+	flex-basis: 26%;
+	margin-right: 3rem;
+}
+
+main,
+.main {
+	flex-basis: 71%;
+}
+
+.page__content {
+	min-height: calc(100vh - 34rem);
+}

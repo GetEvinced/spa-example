@@ -1,0 +1,184 @@
+header,
+.header {
+	flex-direction: column;
+}
+
+header > *,
+.header > * {
+	margin-bottom: 3rem;
+}
+
+.header__top {
+	justify-content: space-between;
+}
+
+.logo__link {
+	display: block;
+	height: 4rem;
+	font-size: 3.5rem;
+	color: gray;
+	font-weight: 400;
+	font-family: var(--headings-font);
+	text-decoration: none;
+}
+
+.logo__link > svg {
+	height: 100%;
+	vertical-align: baseline;
+	margin-right: 1rem;
+}
+
+.logo__link > svg .a {
+	fill: var(--black);
+}
+
+.logo__link > svg .b {
+	fill: var(--brand-dark);
+}
+
+.search__widget {
+	font-size: 0;
+}
+
+.search__widget > input {
+	border: 0.1rem solid var(--dark-gray);
+	border-radius: 0;
+	height: 3rem;
+	line-height: 3rem;
+	padding: 0 0.5rem;
+	vertical-align: middle;
+}
+
+.search__widget > button,
+.search__widget > .button {
+	align-items: center;
+	background: var(--brand-dark);
+	border: none;
+	border-radius: 0;
+	color: white;
+	cursor: pointer;
+	display: inline-flex;
+	font-size: 1.4rem;
+	font-weight: 400;
+	height: 3rem;
+	justify-content: center;
+	min-width: 5rem;
+	text-transform: uppercase;
+	transition: all 300ms ease-in-out;
+	vertical-align: middle;
+}
+
+.search__widget > button:hover,
+.search__widget > .button:hover {
+	background: var(--brand-light);
+	color: var(--black);
+}
+
+nav[aria-label='main'] > ul,
+.header-nav > ul {
+	display: flex;
+	height: 4rem;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+nav[aria-label='main'] > ul li,
+.header-nav > ul li {
+	flex-basis: 12.5%;
+}
+
+nav[aria-label='main'] > ul div,
+.header-nav > ul div,
+nav[aria-label='main'] > ul a,
+.header-nav > ul a {
+	align-items: center;
+	background: var(--lighter-gray);
+	color: var(--black);
+	cursor: pointer;
+	display: flex;
+	font-size: 1.4rem;
+	height: 100%;
+	justify-content: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 300ms ease-in-out;
+}
+
+nav[aria-label='main'] > ul a.current,
+.header-nav > ul a.current {
+	background: var(--brand-dark);
+	color: white;
+	pointer-events: none;
+}
+
+nav[aria-label='main'] > ul div:hover,
+nav[aria-label='main'] > ul div:focus,
+nav[aria-label='main'] > ul a:hover,
+nav[aria-label='main'] > ul a:focus,
+.header-nav > ul a:hover,
+.header-nav > ul a:focus {
+	background: var(--brand-dark);
+	color: white;
+}
+
+h1,
+.heading_1 {
+	background: var(--lighter-gray);
+	color: var(--brand-dark);
+	font-family: var(--headings-font);
+	font-size: 4rem;
+	font-weight: 400;
+	margin-top: 0;
+	padding-left: 2.5rem;
+	text-transform: uppercase;
+}
+
+h1 > span,
+.heading_1 > span {
+	background: white;
+	padding: 0 1rem;
+}
+
+.login__btn {
+	align-items: center;
+	margin: 0 1.5rem 0 auto;
+	background: var(--brand-dark);
+	border: none;
+	border-radius: 0;
+	color: white;
+	cursor: pointer;
+	display: flex;
+	font-size: 1.4rem;
+	font-weight: 400;
+	height: 3rem;
+	justify-content: center;
+	min-width: 5rem;
+	padding: 0 1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 300ms ease-in-out;
+	vertical-align: middle;
+}
+
+.login__btn:hover {
+	background: var(--brand-light);
+	color: var(--black);
+}
+
+.user {
+	display: flex;
+	margin: 0 1.5rem 0 auto;
+}
+
+.user a {
+	font-size: 1.4rem;
+}
+
+.user a span {
+	display: inline-block;
+	height: 3rem;
+	width: 3rem;
+	vertical-align: middle;
+}
