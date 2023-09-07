@@ -23,7 +23,7 @@ const A11yMainNav = () => {
 				<li><NavLink to='/partners'>partners</NavLink></li>
 				<li><NavLink to='/customers'>customers</NavLink></li>
 				<li><NavLink to='/projects'>projects</NavLink></li>
-				<li><NavLink to='/careers'>careers</NavLink></li>ֿ
+				<li><NavLink to='/careers'>careers</NavLink></li>
 				<li><NavLink to='/contact'>contact</NavLink></li>
 			</ul>
 		</nav>
